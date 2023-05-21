@@ -1,2 +1,2 @@
-# svgViewer
-ongoing project on making svg readable and adjustable
+# svgExplorer
+Ongoing project on making svg readable and adjustable
