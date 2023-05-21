@@ -16,14 +16,13 @@ export const SVGInput: FC<Props> = ({ svg = '', setSvg }) => {
     }
 
     return (
-        <div className="XMLInput">
+        <div className="SVGInput">
             <textarea
                 // ref={inputRef} 
                 onInput={handleInput}
                 rows={5} cols={50}
-            >
-                {svg}
-            </textarea>
+                value={svg}
+            ></textarea>
         </div>
     )
 }

@@ -43,9 +43,10 @@
 }
 
 .App code {
-  font-size: 1em;
+  font-size: .85em;
 }
 
-.App code[onclick] {
-  text-decoration: dashed;
+.App code.example-code {
+  cursor: pointer;
+  text-decoration: underline dashed;
 }

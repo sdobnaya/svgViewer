@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { SVGInput } from './SVGInput/SVGInput';
+import { SVGOutput } from './SVGOutput/SVGOutput';
 import './App.css';
 
 const exampleSvg = `<svg width="100" height="100">
@@ -17,12 +18,12 @@ function App() {
       <div className="row">
         <div className="col-6">
           <SVGInput svg={svgCode} setSvg={setSvgCode} />
-          <i>Example: <code onClick={() => setSvgCode(exampleSvg)}>{exampleSvg}</code></i>
+          <i>Example: <code className="example-code" onClick={() => setSvgCode(exampleSvg)}>{exampleSvg}</code></i>
         </div>
         <div className="col-6">
           Output:
           <br />
-          <iframe sandbox='' srcDoc={svgCode}></iframe>
+          <SVGOutput svg={svgCode} />
         </div>
       </div>
     </div>
