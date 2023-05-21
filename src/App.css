@@ -1,8 +1,13 @@
 .App {
   text-align: center;
+
+  min-height: 100vh;
+
+  background-color: #282c34;
+  color: #fff;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -11,11 +16,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 1em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +36,16 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.App code {
+  font-size: 1em;
+}
+
+.App code[onclick] {
+  text-decoration: dashed;
 }
