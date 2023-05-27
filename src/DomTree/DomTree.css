@@ -1,0 +1,50 @@
+.TextNode {
+    background: rgba(228, 163, 0, 0.2);
+}
+
+.CDataNode {}
+
+.CommentNode {}
+
+.domTree-node ol{
+    list-style: none;
+}
+
+.domTree-nodeProps {
+    padding: .2em .5em;
+    border: 1px solid gold;
+    display: flex;
+    width: fit-content;
+}
+
+.domTree-nodeProps dl,
+.domTree-nodeProps dt,
+.domTree-nodeProps dd {
+    text-align: left;
+}
+
+
+.domTree-childNodes {
+    margin: .5em 0 .5em .5em;
+    padding: 0;
+}
+
+.domTree-childNodes-node {
+    background: rgba(255, 255, 255, .1);
+    margin: 0 .5em .5em .5em;
+    padding: .5em 0 .5em .5em;
+}
+
+.attributes dl,
+.attributes dt,
+.attributes dd {
+    margin: 0;
+    padding: 0;
+}
+.attributes dl {
+    display: inline-flex;
+    margin-left: 1em; /* For one-line view - space between attributes */
+}
+.attributes dt::after {
+    content: "=";
+}
