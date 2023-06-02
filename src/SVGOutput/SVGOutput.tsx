@@ -1,5 +1,5 @@
 import React, { FC, FormEventHandler, ReactEventHandler, useRef } from "react";
-import './SVGOutput.css'
+import './SVGOutput.scss'
 
 type Props = {
     svg: string | undefined;

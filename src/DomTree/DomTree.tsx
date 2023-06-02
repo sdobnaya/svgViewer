@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import "./DomTree.css";
+import "./DomTree.scss";
 
 const NodeTypes = {
     ELEMENT_NODE: 1,

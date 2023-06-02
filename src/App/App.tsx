@@ -1,8 +1,8 @@
 import React, { useEffect, useLayoutEffect, useState } from 'react';
-import { SVGInput } from './SVGInput/SVGInput';
-import { SVGControlPanel } from './SVGControlPanel/SVGControlPanel';
-import { SVGOutput } from './SVGOutput/SVGOutput';
-import './App.css';
+import { SVGInput } from '../SVGInput/SVGInput';
+import { SVGControlPanel } from '../SVGControlPanel/SVGControlPanel';
+import { SVGOutput } from '../SVGOutput/SVGOutput';
+import './App.scss';
 
 const exampleSvg = `<svg width="300" height="300">
   <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" />
